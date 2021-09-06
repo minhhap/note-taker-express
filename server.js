@@ -38,7 +38,7 @@ app.get('/api/notes', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
 // set id based on what the next index of the array will be
-    // req.body.id = notes.length.toString();
+    req.body.id = notes.length.toString();
     const newNote = req.body;
     notes.push(newNote);
     res.json(newNote);
