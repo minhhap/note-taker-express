@@ -7,9 +7,6 @@ This application allows users to write, save and view notes.
 * Node
 * Express.js
 
-## Deployed Link
-
-
 ## Screenshot
 
 Home Page
@@ -23,6 +20,9 @@ Note Page
 <div>
     <img src="./public/assets/images/note-save.png"></img>
 </div>
+
+## Deployed Link
+https://minhha-note-taker.herokuapp.com/
 
 ## GitHub Repo
 https://github.com/minhhap/note-taker-express
